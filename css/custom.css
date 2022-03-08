@@ -1,0 +1,23 @@
+body {
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.likes{
+  top: 44%;
+  right: 15px
+}
+
+.likes span{
+  text-shadow: 1px 1px 3px #000;
+}
+
+.likes svg{
+  background-color: rgb(244 9 9);
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
